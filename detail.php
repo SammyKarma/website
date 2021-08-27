@@ -13,59 +13,60 @@
     <title>Internet Technology - Details</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light row">
+        <!-- <div class="container-fluid">
             <a class="navbar-brand" href="#">
             <img src="images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
             Nnamdi Azikwe Univeristy
             </a>
+        </div> -->
+        <div style="padding: 1rem;" class="selectors">
+            
+            <!-- <h1>Allocated Courses</h1> -->
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-first-tab" data-bs-toggle="pill" data-bs-target="#pills-personal" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Personal Details</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-first-tab" data-bs-toggle="pill" data-bs-target="#pills-first" type="button" role="tab" aria-controls="pills-home" aria-selected="true">First Semester Courses</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-second-tab" data-bs-toggle="pill" data-bs-target="#pills-second" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Second Semester Courses</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-third-tab" data-bs-toggle="pill" data-bs-target="#pills-third" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Third Semester Courses</button>
+                </li>
+            </ul>
         </div>
     </nav>
-    <div class="header">
-        <h1><b>Welcome</b> <br> You made it here!</h1>
-    </div>
-    <div style="padding: 1rem;">
-      <h1>Personal Details</h1>
-    </div>
-    <table class="table table-striped table-hover">
-      <thead class="" style="background-color: #33BE8F; color:#fff">
-      <tr>
-          <th scope="col">Name</th>
-          <th scope="col">Registration Number</th>
-          <th scope="col">Department</th>
-          <th scope="col">Program</th>
-          <th scope="col">Year</th>
-      </tr>
-      </thead>
-      <tbody>
-      <tr>
-          <th scope="row">Nnanna Nnanna Ajah</th>
-          <td>2019516012FB</td>
-          <td>Computer Science</td>
-          <td>Masters Degree</td>
-          <td>First Year</td>
-      </tr>
-      </tbody>
-    </table>
 
-    <div style="padding: 1rem;" class="selectors">
-      <h1>Allocated Courses</h1>
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-first-tab" data-bs-toggle="pill" data-bs-target="#pills-first" type="button" role="tab" aria-controls="pills-home" aria-selected="true">First Semester</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-second-tab" data-bs-toggle="pill" data-bs-target="#pills-second" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Second Semester</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-third-tab" data-bs-toggle="pill" data-bs-target="#pills-third" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Third Semester</button>
-        </li>
-      </ul>
-    </div>
+    
 
     
     <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="pills-first" role="tabpanel" aria-labelledby="pills-first-tab">
+    <div class="tab-pane fade show active" id="pills-personal" role="tabpanel" aria-labelledby="pills-first-tab">
+        <table class="table table-striped table-hover">
+        <thead class="" style="background-color: #33BE8F; color:#fff">
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Registration Number</th>
+            <th scope="col">Department</th>
+            <th scope="col">Program</th>
+            <th scope="col">Year</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">Nnanna Nnanna Ajah</th>
+            <td>2019516012FB</td>
+            <td>Computer Science</td>
+            <td>Masters Degree</td>
+            <td>First Year</td>
+        </tr>
+        </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="pills-first" role="tabpanel" aria-labelledby="pills-first-tab">
         <table class="table table-striped table-hover">
           <thead class="" style="background-color: #33BE8F; color:#fff">
           <tr>
