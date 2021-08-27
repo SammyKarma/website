@@ -8,14 +8,15 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- custom stylesheet -->
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="dstyle.css" rel="stylesheet" type="text/css">
     
     <title>Internet Technology - Details</title>
   </head>
   <body>
     
-
-    
+    <!-- <div id="banner">
+        <img src="http://getwallpapers.com/wallpaper/full/f/3/2/23493.jpg" width="100%" height="400px">
+    </div> -->
 
     <div style="padding: 1rem;" class="selectors">
             
@@ -37,8 +38,8 @@
         </div>
     <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-personal" role="tabpanel" aria-labelledby="pills-first-tab">
-        <table class="table table-striped table-hover">
-        <thead class="" style="background-color: #33BE8F; color:#fff">
+        <table class="table">
+        <thead class="" style="background-color: #FFC312; color:#fff">
         <tr>
             <th scope="col">Name</th>
             <th scope="col">Registration Number</th>
@@ -61,8 +62,8 @@
         </table>
       </div>
       <div class="tab-pane fade" id="pills-first" role="tabpanel" aria-labelledby="pills-first-tab">
-        <table class="table table-striped table-hover">
-          <thead class="" style="background-color: #33BE8F; color:#fff">
+        <table class="table">
+          <thead class="" style="background-color: #FFC312; color:#fff">
           <tr>
               <th scope="col">Code</th>
               <th scope="col">Title</th>
@@ -127,8 +128,8 @@
       </div>
 
       <div class="tab-pane fade" id="pills-second" role="tabpanel" aria-labelledby="pills-second-tab">
-        <table class="table table-striped table-hover">
-          <thead class="" style="background-color: #33BE8F; color:#fff">
+        <table class="table">
+          <thead class="" style="background-color: #FFC312; color:#fff">
           <tr>
               <th scope="col">Code</th>
               <th scope="col">Title</th>
@@ -193,8 +194,8 @@
       </div>
 
       <div class="tab-pane fade" id="pills-third" role="tabpanel" aria-labelledby="pills-third-tab">
-        <table class="table table-striped table-hover">
-          <thead class="" style="background-color: #33BE8F; color:#fff">
+        <table class="table">
+          <thead class="" style="background-color: #FFC312; color:#fff">
           <tr>
               <th scope="col">Code</th>
               <th scope="col">Title</th>
