@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,body{
-background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+/* background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg'); */
+background-image: url('http://getwallpapers.com/wallpaper/full/f/3/2/23493.jpg');
 background-size: cover;
 background-repeat: no-repeat;
 height: 100%;
@@ -86,4 +87,13 @@ color: white;
 
 .links a{
 margin-left: 4px;
+}
+
+a{
+    color: #FFC312;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
 }
