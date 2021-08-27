@@ -13,14 +13,11 @@
     <title>Internet Technology - Details</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light row">
-        <!-- <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Nnamdi Azikwe Univeristy
-            </a>
-        </div> -->
-        <div style="padding: 1rem;" class="selectors">
+    
+
+    
+
+    <div style="padding: 1rem;" class="selectors">
             
             <!-- <h1>Allocated Courses</h1> -->
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -38,11 +35,6 @@
                 </li>
             </ul>
         </div>
-    </nav>
-
-    
-
-    
     <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-personal" role="tabpanel" aria-labelledby="pills-first-tab">
         <table class="table table-striped table-hover">
@@ -50,18 +42,20 @@
         <tr>
             <th scope="col">Name</th>
             <th scope="col">Registration Number</th>
+            <th scope="col">Email Address</th>
             <th scope="col">Department</th>
-            <th scope="col">Program</th>
-            <th scope="col">Year</th>
+            <th scope="col">Major</th>
+            <th scope="col">Graduation Year</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <th scope="row">Nnanna Nnanna Ajah</th>
-            <td>2019516012FB</td>
+            <th scope="row">Samuel Ojukwu</th>
+            <td>2019516011FB</td>
+            <td>codecheat@gmail.com</td>
             <td>Computer Science</td>
-            <td>Masters Degree</td>
-            <td>First Year</td>
+            <td>Artificial Intelligence and Robotics</td>
+            <td>2021</td>
         </tr>
         </tbody>
         </table>

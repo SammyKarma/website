@@ -13,7 +13,7 @@
 	<!--Custom styles-->
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body id="index">
 <div class="container">
 	<div class="d-flex justify-content-center h-100">
 		<div class="card">
