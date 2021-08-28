@@ -91,31 +91,23 @@ a:hover{
     text-decoration: none;
 }
 
-
-
-
-
-
-
-
-  .nav-link{
-    color: #000;
-  }
-  .nav-link:hover, .nav-link:focus {
-    color: #FFC312;
-  }
-  .nav-pills .nav-link.active,
-  .nav-pills .show > .nav-link {
-    color: #fff;
-    background-color: #FFC312;
-  }
+.nav-link{
+color: #000;
+}
+.nav-link:hover, .nav-link:focus {
+color: #FFC312;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+color: #fff;
+background-color: #FFC312;
+}
   
-  @media screen and (max-width: 950px) {
+/* @media screen and (max-width: 950px) {
     .left{  
-      flex-basis:0%;
+        flex-basis:0%;
     }
     .right{    
-      flex-basis:100%;   
-    
+        flex-basis:100%;   
     }
-  }
+} */
