@@ -13,6 +13,19 @@
     <title>Internet Technology - Details</title>
   </head>
   <body>
+  
+<?php
+session_start();
+if(!isset($_SESSION['username'])){
+   header("Location:login.php");
+		echo "Welcome to you<br>";
+		echo "<a href='logout.php'>Logout</a>";
+	}
+	else
+	{
+		header("location:login.php");
+	}
+?>
     
     <!-- <div id="banner">
         <img src="http://getwallpapers.com/wallpaper/full/f/3/2/23493.jpg" width="100%" height="400px">
